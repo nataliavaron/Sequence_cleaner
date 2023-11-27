@@ -1,2 +1,8 @@
 # Sequence_cleaner
 This Python script is tailored for handling .phd files from Sanger sequencing. It extracts nucleotide sequences, omitting regions with low quality. Designed for command line execution, its automatically produces refined FASTA files in a designated folder. It proves particularly beneficial for bioinformatics
+# what does this?
+This Python script manages the processing of files with the .phd extension, originating from Sanger sequencing data. It is a crucial tool for cleaning these files, as they contain intricate details about the quality of each nucleotide. This information facilitates the exclusion of regions with low sequence quality. Specifically, nucleotides with a Phred quality score lower than 30 are omitted.
+# Why the project is useful?
+This project is of paramount importance as it provides a user-friendly tool for the analysis of Sanger sequencing data. The absence of such automated processes significantly hinders crucial bioinformatic analysis in molecular biology and genetics research. By offering an automated solution, our project streamlines the sequencing data processing task, allowing researchers to focus on more substantive aspects of their investigations and accelerating progress in understanding molecular biology and genetics.
+# Goal
+Designed to be executed from the command line, the code automates the processing and filtering of nucleotide sequences from .phd files. As a result, it generates optimized FASTA files stored in a designated folder. This approach is particularly valuable in bioinformatics projects involving the analysis of Sanger sequencing data.
