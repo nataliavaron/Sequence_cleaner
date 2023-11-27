@@ -7,6 +7,8 @@ This project is of paramount importance as it provides a user-friendly tool for 
 # Goal
 Designed to be executed from the command line, the code automates the processing and filtering of nucleotide sequences from .phd files. As a result, it generates optimized FASTA files stored in a designated folder. This approach is particularly valuable in bioinformatics projects involving the analysis of Sanger sequencing data.
 
+# Note : Before running this code, it is recommended to have .phd files downloaded from the application https://bugaco.com/. This script is designed for the file format obtained through this online application.
+
 # Python script 
 # 1. Processing files with the .phd extension: In this first part, the function receives the path of a file with the .phd extension and an optional number of header lines (header_lines). It reads the file, skips the specified header lines, and processes the remaining information. It extracts nucleotide sequences and their corresponding qualities, creating a pandas DataFrame with two columns: 'Nucleotides' and 'Qualities. 
 mport os
