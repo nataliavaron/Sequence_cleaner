@@ -51,7 +51,7 @@ def procesar_folder(folder_path):
             # File name without extension
             name_without_extension = os.path.splitext(file)[0]
 
-            # Crear el nombre del archivo FASTA con el nombre del archivo original
+            # Create the FASTA file name using the original file name
             fasta_file_name = f'nucleotides_{name_without_extension}.fasta'
             fasta_file_path = os.path.join(curated_folder, fasta_file_name)
 
